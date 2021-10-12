@@ -1,0 +1,32 @@
+body {
+    background-image: url(foto.test.jpg);
+    display: grid;
+}
+
+header {
+    color: yellow;
+    height: 100px;
+}
+
+#menu {
+    background-color: orange;
+    color: red;
+    height: 100px;
+}
+
+#events {
+    background-color: yellow;
+    color: red;
+    height: 100px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+li {
+    color: greenyellow;
+    text-decoration: tomato;
+}
