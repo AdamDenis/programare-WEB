@@ -1,6 +1,7 @@
 body {
     background-image: url(foto.test.jpg);
     display: grid;
+    width: 600 px;
 }
 
 header {
@@ -8,13 +9,13 @@ header {
     height: 100px;
 }
 
-#menu {
+.menu {
     background-color: orange;
     color: red;
     height: 100px;
 }
 
-#events {
+.events {
     background-color: yellow;
     color: red;
     height: 100px;
