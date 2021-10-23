@@ -1,30 +1,46 @@
 body {
-    background-image: url(foto.test.jpg);
+    border: 1px solid red;
+    background: beige;
+    background-color: turquoise;
     display: grid;
     width: 1000px;
 }
 
-header {
+.header {
+    background-image: url(school.jpg);
+    border: 1px solid yellow;
+    text-align: center;
+}
+
+.container {
     color: yellow;
-    height: 100px;
+    font-family: 'Times New Roman';
 }
 
 .menu {
     background-color: orange;
     color: red;
     height: 100px;
+    width: 15%;
 }
 
 .events {
     background-color: yellow;
     color: red;
-    height: 100px;
+    height: auto;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    position: right;
 }
 
 footer {
+    width: 100%;
     background-color: black;
     color: white;
-    height: 100px;
+    height: 200px;
 }
 
 li {
