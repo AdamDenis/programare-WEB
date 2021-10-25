@@ -2,11 +2,13 @@ body {
     border: 1px solid red;
     background-color: lightgrey;
     display: grid;
-    grid-template-areas: "header header header header header";
+    grid-template-areas: "header header header header header" "menu menu menu menu menu" "events events events events events" "footer footer footer footer footer";
 }
 
 .header {
     background-image: url(school.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
     border: 1px solid yellow;
     text-align: center;
     grid-area: header;
@@ -14,33 +16,36 @@ body {
 
 .container {
     color: yellow;
-    font-family: 'Times New Roman';
+    font-family: 'Courier New';
 }
 
 .menu {
-    background-color: orange;
+    background-color: whitesmoke;
+    border: 1px solid black;
     color: red;
-    height: 100px;
-    width: 15%;
+    height: auto;
+    grid-area: menu;
 }
 
 .events {
-    background-color: yellow;
+    background-color: whitesmoke;
+    border: 1px solid black;
     color: red;
-    height: auto;
+    height: 400px;
+    grid-area: events;
 }
 
 #event {
     width: 100px;
-    position: absolute;
     margin: auto;
 }
 
 footer {
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: whitesmoke;
+    color: black;
     height: 200px;
+    grid-area: footer;
 }
 
 li {
@@ -51,4 +56,19 @@ li {
 
 h {
     color: red;
+}
+
+#logoF {
+    background: url(Facebook-logo.png) no-repeat 100% 5px;
+    padding-right: 13px;
+}
+
+#logoG {
+    background: url(Gmail-Logo.jpg) no-repeat 100% 5px;
+    padding-right: 13px;
+}
+
+#logoP {
+    background: url(Viber-logo.png) no-repeat 100% 5px;
+    padding-right: 13px;
 }
