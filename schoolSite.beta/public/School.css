@@ -8,9 +8,10 @@ body {
 .header {
     background-image: url(school.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     border: 1px solid yellow;
     text-align: center;
+    height: 200px;
     grid-area: header;
 }
 
