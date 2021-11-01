@@ -25,20 +25,8 @@ body {
     border: 1px solid black;
     color: red;
     height: auto;
+    text-align: center;
     grid-area: menu;
-}
-
-.events {
-    background-color: whitesmoke;
-    border: 1px solid black;
-    color: red;
-    height: 400px;
-    grid-area: events;
-}
-
-#event {
-    width: 100px;
-    margin: auto;
 }
 
 footer {
@@ -55,21 +43,18 @@ li {
     border: 1px black;
 }
 
-h {
-    color: red;
+.logo {
+    padding-right: 13px;
 }
 
-#logoF {
+.Facebook {
     background: url(Facebook-logo.png) no-repeat 100% 5px;
-    padding-right: 13px;
 }
 
-#logoG {
+.Gmail {
     background: url(Gmail-Logo.jpg) no-repeat 100% 5px;
-    padding-right: 13px;
 }
 
-#logoP {
+.Phone {
     background: url(Viber-logo.png) no-repeat 100% 5px;
-    padding-right: 13px;
 }
