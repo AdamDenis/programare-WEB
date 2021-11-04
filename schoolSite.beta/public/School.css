@@ -2,7 +2,7 @@ body {
     border: 1px solid red;
     background-color: lightgrey;
     display: grid;
-    grid-template-areas: "header header header header header" "menu menu menu menu menu" "events events events events events" "footer footer footer footer footer";
+    grid-template-areas: "header header header header header" "menu menu menu menu menu" "events events events events events" "events events events events events" "footer footer footer footer footer";
 }
 
 .header {

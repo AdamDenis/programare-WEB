@@ -97,7 +97,7 @@ section#main div a.button {
 }
 
 #line {
-    height: 1px;
+    height: 0px;
     width: 315px;
     border: 1px solid black;
     text-align: center;
@@ -173,4 +173,87 @@ section#main div a.button {
     width: 65px;
     height: 0px;
     border: 1px solid #000000;
+}
+
+#custom p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.choosedesign {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.Area {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.Budgeting {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.Production {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+#custom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.img20 {
+    margin-left: 30px;
+}
+
+.button1 {
+    width: 212px;
+    height: 50px;
+    border: none;
+    background-color: #DAA520;
+    border-radius: 4px;
+    display: grid;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.button01 {
+    align-items: center;
+    margin-left: 350px;
+}
+
+#line1 {
+    height: 0px;
+    width: 202px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: -95px;
+}
+
+.button {
+    width: 123px;
+    height: 40px;
+    border: 1px solid #3E3F43;
+    border-radius: 4px;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.wthr {
+    background-color: #F9BDBD;
 }
