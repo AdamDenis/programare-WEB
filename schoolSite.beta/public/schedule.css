@@ -1,0 +1,14 @@
+* {
+    font-family: 'Zen Antique Soft';
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+    align-items: center;
+}
+
+body div {
+    border: 1px solid black;
+}
