@@ -10,5 +10,25 @@ body {
 }
 
 body div {
-    border: 1px solid black;
+    border: 1px solid darkred;
+    align-items: center;
+    text-align: center;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+ol {
+    padding-inline-start: 0px;
+}
+
+.leftandup {
+    height: 291.2px;
+    align-items: center;
+    background: darkgreen;
+    color: whitesmoke;
+}
+
+.schedule {
+    background: black;
+    color: whitesmoke;
 }
