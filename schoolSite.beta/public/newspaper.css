@@ -1,0 +1,32 @@
+* {
+    background-color: #fcd59a;
+    font-family: 'Zen Antique Soft';
+}
+
+h1 {
+    font-size: 24px;
+    margin-left: 0px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 550px auto;
+    align-items: center;
+}
+
+.nav {
+    width: auto;
+    margin-left: 150px;
+    color: #818181;
+    font-size: 18px;
+    font-weight: 800px;
+    text-decoration: none;
+}
+
+img {
+    height: 400px;
+    width: 600px;
+    position: fixed;
+    left: 930px;
+    top: 180px;
+}
