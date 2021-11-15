@@ -1,11 +1,13 @@
 * {
     font-family: 'Zen Antique Soft';
+    margin: 0px;
+    background-color: black;
 }
 
 body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(17, 1fr);
+    grid-template-rows: 70px repeat(16, 1fr);
     align-items: center;
 }
 
@@ -22,7 +24,15 @@ ol {
 }
 
 .leftandup {
-    height: 291.2px;
+    height: 185.6px;
+    align-items: center;
+    text-align: center;
+    background: darkgreen;
+    color: whitesmoke;
+}
+
+.up {
+    height: 70px;
     align-items: center;
     background: darkgreen;
     color: whitesmoke;
@@ -30,5 +40,19 @@ ol {
 
 .schedule {
     background: black;
+    color: whitesmoke;
+}
+
+.up p {
+    padding-top: 15px;
+    align-items: center;
+    background: darkgreen;
+    color: whitesmoke;
+}
+
+.leftandup p {
+    padding-top: 70px;
+    align-items: center;
+    background: darkgreen;
     color: whitesmoke;
 }
