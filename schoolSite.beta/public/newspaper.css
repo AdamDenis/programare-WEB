@@ -27,8 +27,73 @@ header {
 img {
     height: 400px;
     width: 600px;
-    position: fixed;
-    left: 930px;
-    top: 180px;
     border-radius: 10%;
+}
+
+h2 {
+    position: relative;
+    left: 500px;
+    width: 300px;
+}
+
+.data {
+    position: relative;
+    left: 540px;
+    width: 300px;
+}
+
+.info {
+    position: absolute;
+    top: 90%;
+}
+
+#first {
+    position: absolute;
+    top: 10%;
+}
+
+footer .connect {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #818181;
+}
+
+footer p {
+    width: 400px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.imglogo {
+    display: grid;
+    grid-template-columns: 60px auto;
+    align-items: center;
+}
+
+.FB {
+    height: 40px;
+    width: 60px
+}
+
+footer h4 {
+    font-size: 24px;
+}
+
+footer {
+    position: absolute;
+    top: 170%;
+    left: 1%;
+}
+
+#tel {
+    text-decoration: none;
+    color: #818181;
 }

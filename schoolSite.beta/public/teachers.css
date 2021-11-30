@@ -1,0 +1,71 @@
+* {
+    background-color: white;
+    font-family: 'Zen Antique Soft';
+}
+
+h1 {
+    font-size: 24px;
+    margin-left: 0px;
+    padding-left: 200px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 550px auto;
+    align-items: center;
+}
+
+.nav {
+    width: auto;
+    margin-left: 150px;
+    color: #818181;
+    font-size: 18px;
+    font-weight: 800px;
+    text-decoration: none;
+}
+
+footer .connect {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #818181;
+}
+
+footer p {
+    width: 400px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.imglogo {
+    display: grid;
+    grid-template-columns: 60px auto;
+    align-items: center;
+}
+
+.FB {
+    height: 40px;
+    width: 60px
+}
+
+footer h4 {
+    font-size: 24px;
+}
+
+footer {
+    position: absolute;
+    top: 1250px;
+    left: 50px;
+}
+
+#tel {
+    text-decoration: none;
+    color: #818181;
+}
