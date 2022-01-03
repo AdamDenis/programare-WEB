@@ -6,8 +6,8 @@
 
 body {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: 70px repeat(16, 1fr);
+    grid-template-columns: 100px repeat(6, 236px);
+    grid-template-rows: 70px repeat(16, 187px);
     align-items: center;
 }
 
