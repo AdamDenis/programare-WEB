@@ -2,7 +2,11 @@
     font-family: 'Zen Antique Soft';
 }
 
-body {}
+body {
+    overflow-x: hidden;
+    max-width: 1600px;
+    min-width: 960px;
+}
 
 h1 {
     font-size: 24px;
@@ -28,10 +32,7 @@ h2 {
     text-align: center;
 }
 
-.school {
-    display: grid;
-    grid-template-columns: 1fr 500px;
-}
+.school {}
 
 #school {
     width: 400px;
@@ -49,8 +50,6 @@ h2 {
 }
 
 .school1 {
-    display: grid;
-    grid-template-columns: 500px 1fr;
     align-items: center;
     margin-top: 50px;
     margin-left: 50px;
