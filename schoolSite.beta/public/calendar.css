@@ -1,0 +1,98 @@
+* {
+    background-color: #fcd59a;
+    font-family: 'Zen Antique Soft';
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 1600px;
+    min-width: 960px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-left: 0px;
+    padding-left: 100px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 350px auto;
+    align-items: center;
+}
+
+.nav {
+    width: auto;
+    margin-left: 80px;
+    color: #818181;
+    font-size: 18px;
+    font-weight: 800px;
+    text-decoration: none;
+}
+
+#age {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.defolt {
+    background-color: white;
+}
+
+.green {
+    background-color: #00ff2a;
+}
+
+.days-name {
+    background-color: #666;
+    color: #ff0320;
+    text-align: center;
+    align-items: center;
+}
+
+.days p {
+    border: 1px solid black;
+    margin: 0px;
+    font-size: 24px;
+}
+
+.month {
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    border: 1px solid black;
+}
+
+.name {
+    font-size: 48px;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.autumn {
+    background: rgb(197, 198, 2);
+    background: linear-gradient(90deg, rgba(197, 198, 2, 1) 0%, rgba(225, 158, 1, 1) 48%, rgba(255, 0, 0, 1) 100%);
+}
+
+.winter {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(1, 225, 196, 1) 48%, rgba(0, 168, 255, 1) 100%);
+}
+
+.spring {
+    background: rgb(147, 255, 1);
+    background: linear-gradient(90deg, rgba(147, 255, 1, 1) 0%, rgba(0, 255, 59, 1) 50%, rgba(43, 225, 1, 1) 100%);
+}
+
+.summer {
+    background: rgb(255, 245, 103);
+    background: linear-gradient(90deg, rgba(255, 245, 103, 1) 0%, rgba(223, 206, 9, 1) 50%, rgba(255, 166, 0, 1) 100%);
+}

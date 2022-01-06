@@ -85,7 +85,9 @@ footer h4 {
     font-size: 24px;
 }
 
-footer {}
+footer {
+    margin-top: 300px;
+}
 
 #tel {
     text-decoration: none;
