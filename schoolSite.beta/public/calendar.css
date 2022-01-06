@@ -78,8 +78,8 @@ header {
 }
 
 .autumn {
-    background: rgb(197, 198, 2);
-    background: linear-gradient(90deg, rgba(197, 198, 2, 1) 0%, rgba(225, 158, 1, 1) 48%, rgba(255, 0, 0, 1) 100%);
+    background: rgb(249, 162, 1);
+    background: linear-gradient(90deg, rgba(249, 162, 1, 1) 0%, rgba(223, 87, 9, 1) 50%, rgba(255, 4, 4, 1) 100%);
 }
 
 .winter {
@@ -88,8 +88,8 @@ header {
 }
 
 .spring {
-    background: rgb(147, 255, 1);
-    background: linear-gradient(90deg, rgba(147, 255, 1, 1) 0%, rgba(0, 255, 59, 1) 50%, rgba(43, 225, 1, 1) 100%);
+    background: rgb(110, 249, 1);
+    background: linear-gradient(90deg, rgba(110, 249, 1, 1) 0%, rgba(9, 223, 26, 1) 50%, rgba(1, 123, 43, 1) 100%);
 }
 
 .summer {
