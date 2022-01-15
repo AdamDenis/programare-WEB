@@ -50,6 +50,10 @@ ol {
     color: whitesmoke;
 }
 
+ol {
+    list-style: none;
+}
+
 .leftandup p {
     padding-top: 70px;
     align-items: center;
