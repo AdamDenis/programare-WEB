@@ -59,11 +59,7 @@ footer h4 {
     font-size: 24px;
 }
 
-footer {
-    position: absolute;
-    top: 1250px;
-    left: 50px;
-}
+footer {}
 
 #tel {
     text-decoration: none;
