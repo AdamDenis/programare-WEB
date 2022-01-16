@@ -21,7 +21,7 @@ header {
 
 .nav {
     width: auto;
-    margin-left: 150px;
+    margin-left: 100px;
     color: #818181;
     font-size: 18px;
     font-weight: 800px;
@@ -71,9 +71,6 @@ footer h4 {
 p {
     font-size: 48px;
     text-align: center;
-    position: relative;
-    left: 50%;
-    width: 600px;
 }
 
 section {
