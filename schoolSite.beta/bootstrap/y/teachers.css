@@ -1,0 +1,23 @@
+#space {
+    width: 400px;
+}
+
+header {
+    margin-left: 100px;
+}
+
+.slide {
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    position: relative;
+    top: 50px;
+}

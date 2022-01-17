@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="calendar.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Календарь</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div id="space"></div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " target="blank" aria-current="page" href="schedule.html">Расписание</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="newspaper.html">Школьная газета</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="teachers.html">Учителя</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <p id="age">2021-2022</p>
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col autumn">
+                <p class="autumn">Сентябрь</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days">1 <br></div>
+            <div class="col days">2 <br></div>
+            <div class="col days">3 <br></div>
+            <div class="col days green">4 <br></div>
+            <div class="col days green">5 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">6 <br></div>
+            <div class="col days">7 <br></div>
+            <div class="col days">8 <br></div>
+            <div class="col days">9 <br></div>
+            <div class="col days">10 <br></div>
+            <div class="col days green">11 <br></div>
+            <div class="col days green">12 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">13 <br></div>
+            <div class="col days">14 <br></div>
+            <div class="col days">15 <br></div>
+            <div class="col days">16 <br></div>
+            <div class="col days">17 <br></div>
+            <div class="col days green">18 <br></div>
+            <div class="col days green">19 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">20 <br></div>
+            <div class="col days">21 <br></div>
+            <div class="col days">22 <br></div>
+            <div class="col days">23 <br></div>
+            <div class="col days">24 <br></div>
+            <div class="col days green">25 <br></div>
+            <div class="col days green">26 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">27 <br></div>
+            <div class="col days">28 <br></div>
+            <div class="col days">29 <br></div>
+            <div class="col days">30 <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green">5 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col autumn">
+                <p class="autumn">Октябрь</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days">1 <br></div>
+            <div class="col days green">2 <br></div>
+            <div class="col days green">3 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">4 <br></div>
+            <div class="col days">5 <br></div>
+            <div class="col days">6 <br></div>
+            <div class="col days">7 <br></div>
+            <div class="col days">8 <br></div>
+            <div class="col days green">9 <br></div>
+            <div class="col days green">10 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">11 <br></div>
+            <div class="col days">12 <br></div>
+            <div class="col days">13 <br></div>
+            <div class="col days">14 <br></div>
+            <div class="col days">15 <br></div>
+            <div class="col days green">16 <br></div>
+            <div class="col days green">17 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">18 <br></div>
+            <div class="col days">19 <br></div>
+            <div class="col days">20 <br></div>
+            <div class="col days">21 <br></div>
+            <div class="col days">22 <br></div>
+            <div class="col days green">23 <br></div>
+            <div class="col days green">24 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">25 <br></div>
+            <div class="col days">26 <br></div>
+            <div class="col days green">27 <br></div>
+            <div class="col days green">28 <br></div>
+            <div class="col days green">29 <br></div>
+            <div class="col days green">30 <br></div>
+            <div class="col days green">31 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col autumn">
+                <p class="autumn">Ноябрь</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">1 <br></div>
+            <div class="col days">2 <br></div>
+            <div class="col days">3 <br></div>
+            <div class="col days">4 <br></div>
+            <div class="col days">5 <br></div>
+            <div class="col days green">6 <br></div>
+            <div class="col days green">7 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">8 <br></div>
+            <div class="col days">9 <br></div>
+            <div class="col days">10 <br></div>
+            <div class="col days">11 <br></div>
+            <div class="col days">12 <br></div>
+            <div class="col days green">13 <br></div>
+            <div class="col days green">14 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">15 <br></div>
+            <div class="col days">16 <br></div>
+            <div class="col days">17 <br></div>
+            <div class="col days">18 <br></div>
+            <div class="col days">19 <br></div>
+            <div class="col days green">20 <br></div>
+            <div class="col days green">21 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">22 <br></div>
+            <div class="col days">23 <br></div>
+            <div class="col days">24 <br></div>
+            <div class="col days">25 <br></div>
+            <div class="col days">26 <br></div>
+            <div class="col days green">27 <br></div>
+            <div class="col days green">28 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">29 <br></div>
+            <div class="col days">30 <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col winter">
+                <p class="winter">Декабрь</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days">1 <br></div>
+            <div class="col days">2 <br></div>
+            <div class="col days">3 <br></div>
+            <div class="col days green">4 <br></div>
+            <div class="col days green">5 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">6 <br></div>
+            <div class="col days">7 <br></div>
+            <div class="col days">8 <br></div>
+            <div class="col days">9 <br></div>
+            <div class="col days">10 <br></div>
+            <div class="col days green">11 <br></div>
+            <div class="col days green">12 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">13 <br></div>
+            <div class="col days">14 <br></div>
+            <div class="col days">15 <br></div>
+            <div class="col days">16 <br></div>
+            <div class="col days">17 <br></div>
+            <div class="col days green">18 <br></div>
+            <div class="col days green">19 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">20 <br></div>
+            <div class="col days">21 <br></div>
+            <div class="col days">22 <br></div>
+            <div class="col days">23 <br></div>
+            <div class="col days">24 <br></div>
+            <div class="col days green">25 <br></div>
+            <div class="col days green">26 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">27 <br></div>
+            <div class="col days green">28 <br></div>
+            <div class="col days green">29 <br></div>
+            <div class="col days green">30 <br></div>
+            <div class="col days green">31 <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col winter">
+                <p class="winter">Январь</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days green">1 <br></div>
+            <div class="col days green">2 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">3 <br></div>
+            <div class="col days green">4 <br></div>
+            <div class="col days green">5 <br></div>
+            <div class="col days green">6 <br></div>
+            <div class="col days green">7 <br></div>
+            <div class="col days green">8 <br></div>
+            <div class="col days green">9 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">10 <br></div>
+            <div class="col days">11 <br></div>
+            <div class="col days">12 <br></div>
+            <div class="col days">13 <br></div>
+            <div class="col days">14 <br></div>
+            <div class="col days green">15 <br></div>
+            <div class="col days green">16 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">17 <br></div>
+            <div class="col days">18 <br></div>
+            <div class="col days">19 <br></div>
+            <div class="col days">20 <br></div>
+            <div class="col days">21 <br></div>
+            <div class="col days green">22 <br></div>
+            <div class="col days green">23 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days ">24 <br></div>
+            <div class="col days ">25 <br></div>
+            <div class="col days ">26 <br></div>
+            <div class="col days ">27 <br></div>
+            <div class="col days ">28 <br></div>
+            <div class="col days green">29 <br></div>
+            <div class="col days green">30 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days ">31 <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col winter">
+                <p class="winter">Февраль</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days"> <br></div>
+            <div class="col days">1 <br></div>
+            <div class="col days">2 <br></div>
+            <div class="col days">3 <br></div>
+            <div class="col days">4 <br></div>
+            <div class="col days green">5 <br></div>
+            <div class="col days green">6 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">7 <br></div>
+            <div class="col days">8 <br></div>
+            <div class="col days">9 <br></div>
+            <div class="col days">10 <br></div>
+            <div class="col days">11 <br></div>
+            <div class="col days green">12 <br></div>
+            <div class="col days green">13 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">14 <br></div>
+            <div class="col days">15 <br></div>
+            <div class="col days">16 <br></div>
+            <div class="col days">17 <br></div>
+            <div class="col days">18 <br></div>
+            <div class="col days green">19 <br></div>
+            <div class="col days green">20 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">21 <br></div>
+            <div class="col days">22 <br></div>
+            <div class="col days">23 <br></div>
+            <div class="col days">24 <br></div>
+            <div class="col days">25 <br></div>
+            <div class="col days green">26 <br></div>
+            <div class="col days green">27 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days ">28 <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col spring">
+                <p class="spring">Март</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days"> <br></div>
+            <div class="col days">1 <br></div>
+            <div class="col days">2 <br></div>
+            <div class="col days">3 <br></div>
+            <div class="col days">4 <br></div>
+            <div class="col days green">5 <br></div>
+            <div class="col days green">6 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">7 <br></div>
+            <div class="col days green">8 <br></div>
+            <div class="col days">9 <br></div>
+            <div class="col days">10 <br></div>
+            <div class="col days">11 <br></div>
+            <div class="col days green">12 <br></div>
+            <div class="col days green">13 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">14 <br></div>
+            <div class="col days">15 <br></div>
+            <div class="col days">16 <br></div>
+            <div class="col days">17 <br></div>
+            <div class="col days">18 <br></div>
+            <div class="col days green">19 <br></div>
+            <div class="col days green">20 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">21 <br></div>
+            <div class="col days">22 <br></div>
+            <div class="col days">23 <br></div>
+            <div class="col days">24 <br></div>
+            <div class="col days">25 <br></div>
+            <div class="col days green">26 <br></div>
+            <div class="col days green">27 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days ">28 <br></div>
+            <div class="col days ">29 <br></div>
+            <div class="col days ">30 <br></div>
+            <div class="col days ">31 <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col spring">
+                <p class="spring">Апрель</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days">1 <br></div>
+            <div class="col days green">2 <br></div>
+            <div class="col days green">3 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days ">4 <br></div>
+            <div class="col days ">5 <br></div>
+            <div class="col days">6 <br></div>
+            <div class="col days">7 <br></div>
+            <div class="col days">8 <br></div>
+            <div class="col days green">9 <br></div>
+            <div class="col days green">10 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">11 <br></div>
+            <div class="col days">12 <br></div>
+            <div class="col days">13 <br></div>
+            <div class="col days">14 <br></div>
+            <div class="col days">15 <br></div>
+            <div class="col days green">16 <br></div>
+            <div class="col days green">17 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">18 <br></div>
+            <div class="col days">19 <br></div>
+            <div class="col days">20 <br></div>
+            <div class="col days">21 <br></div>
+            <div class="col days">22 <br></div>
+            <div class="col days green">23 <br></div>
+            <div class="col days green">24 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">25 <br></div>
+            <div class="col days green">26 <br></div>
+            <div class="col days green">27 <br></div>
+            <div class="col days green">28 <br></div>
+            <div class="col days green">29 <br></div>
+            <div class="col days green">30 <br></div>
+            <div class="col days green"> <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col spring">
+                <p class="spring">Май</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days"> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green">1 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">2 <br></div>
+            <div class="col days green">3 <br></div>
+            <div class="col days">4 <br></div>
+            <div class="col days">5 <br></div>
+            <div class="col days">6 <br></div>
+            <div class="col days green">7 <br></div>
+            <div class="col days green">8 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">8 <br></div>
+            <div class="col days">9 <br></div>
+            <div class="col days">10 <br></div>
+            <div class="col days">11 <br></div>
+            <div class="col days">12 <br></div>
+            <div class="col days green">13 <br></div>
+            <div class="col days green">14 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days">12 <br></div>
+            <div class="col days">13 <br></div>
+            <div class="col days">14 <br></div>
+            <div class="col days">15 <br></div>
+            <div class="col days">16 <br></div>
+            <div class="col days green">17 <br></div>
+            <div class="col days green">18 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days ">19 <br></div>
+            <div class="col days ">20 <br></div>
+            <div class="col days ">21 <br></div>
+            <div class="col days ">22 <br></div>
+            <div class="col days ">23 <br></div>
+            <div class="col days green">24 <br></div>
+            <div class="col days green">25 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days ">30 <br></div>
+            <div class="col days ">31 <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days "> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col summer">
+                <p class="summer">Июнь</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green"> <br></div>
+            <div class="col days  green"> <br></div>
+            <div class="col days  green">1 <br></div>
+            <div class="col days green">2 <br></div>
+            <div class="col days green">3 <br></div>
+            <div class="col days green">4 <br></div>
+            <div class="col days green">5 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">6 <br></div>
+            <div class="col days green">7 <br></div>
+            <div class="col days green">8 <br></div>
+            <div class="col days green">9 <br></div>
+            <div class="col days green">10 <br></div>
+            <div class="col days green">11 <br></div>
+            <div class="col days green">12 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">13 <br></div>
+            <div class="col days green">14 <br></div>
+            <div class="col days green">15 <br></div>
+            <div class="col days green">16 <br></div>
+            <div class="col days green">17 <br></div>
+            <div class="col days green">18 <br></div>
+            <div class="col days green">19 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">20 <br></div>
+            <div class="col days green">21 <br></div>
+            <div class="col days green">22 <br></div>
+            <div class="col days green">23 <br></div>
+            <div class="col days green">24 <br></div>
+            <div class="col days green">25 <br></div>
+            <div class="col days green">26 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">27 <br></div>
+            <div class="col days green">28 <br></div>
+            <div class="col days green">29 <br></div>
+            <div class="col days green">30 <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col summer">
+                <p class="summer">Июль</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green"> <br></div>
+            <div class="col days  green"> <br></div>
+            <div class="col days  green"> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green">1 <br></div>
+            <div class="col days green">2 <br></div>
+            <div class="col days green">3 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">4 <br></div>
+            <div class="col days green">5 <br></div>
+            <div class="col days green">6 <br></div>
+            <div class="col days green">7 <br></div>
+            <div class="col days green">8 <br></div>
+            <div class="col days green">9 <br></div>
+            <div class="col days green">10 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">11 <br></div>
+            <div class="col days green">12 <br></div>
+            <div class="col days green">13 <br></div>
+            <div class="col days green">14 <br></div>
+            <div class="col days green">15 <br></div>
+            <div class="col days green">16 <br></div>
+            <div class="col days green">17 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">18 <br></div>
+            <div class="col days green">19 <br></div>
+            <div class="col days green">20 <br></div>
+            <div class="col days green">21 <br></div>
+            <div class="col days green">22 <br></div>
+            <div class="col days green">23 <br></div>
+            <div class="col days green">24 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">25 <br></div>
+            <div class="col days green">26 <br></div>
+            <div class="col days green">27 <br></div>
+            <div class="col days green">28 <br></div>
+            <div class="col days green">29 <br></div>
+            <div class="col days green">30 <br></div>
+            <div class="col days green">31 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col summer">
+                <p class="summer">Август</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days-name">Понедельник</div>
+            <div class="col days-name">Вторник</div>
+            <div class="col days-name">Среда</div>
+            <div class="col days-name">Четверг</div>
+            <div class="col days-name">Пятница</div>
+            <div class="col days-name">Суббота</div>
+            <div class="col days-name">Воскресенье</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">1 <br></div>
+            <div class="col days  green">2 <br></div>
+            <div class="col days  green">3 <br></div>
+            <div class="col days green">4 <br></div>
+            <div class="col days green">5 <br></div>
+            <div class="col days green">6 <br></div>
+            <div class="col days green">7 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">8 <br></div>
+            <div class="col days green">9 <br></div>
+            <div class="col days green">10 <br></div>
+            <div class="col days green">11 <br></div>
+            <div class="col days green">12 <br></div>
+            <div class="col days green">13 <br></div>
+            <div class="col days green">14 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">15 <br></div>
+            <div class="col days green">16 <br></div>
+            <div class="col days green">17 <br></div>
+            <div class="col days green">18 <br></div>
+            <div class="col days green">19 <br></div>
+            <div class="col days green">20 <br></div>
+            <div class="col days green">21 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">22 <br></div>
+            <div class="col days green">23 <br></div>
+            <div class="col days green">24 <br></div>
+            <div class="col days green">25 <br></div>
+            <div class="col days green">26 <br></div>
+            <div class="col days green">27 <br></div>
+            <div class="col days green">28 <br></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-7">
+            <div class="col days green">29 <br></div>
+            <div class="col days green">30 <br></div>
+            <div class="col days green">31 <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+            <div class="col days green"> <br></div>
+        </div>
+    </div>
+</body>
+
+</html>

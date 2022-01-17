@@ -1,0 +1,70 @@
+#space {
+    width: 400px;
+}
+
+header {
+    margin-left: 100px;
+}
+
+.days-name {
+    background-color: #666;
+    color: #ff0320;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    margin-top: -50px;
+    font-size: 26px;
+}
+
+#age {
+    text-align: center;
+    font-size: 48px;
+    position: relative;
+    top: 20px;
+}
+
+.days {
+    height: 72px;
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+.green {
+    background-color: #00ff2a;
+}
+
+.autumn {
+    background: rgb(249, 162, 1);
+    background: linear-gradient(90deg, rgba(249, 162, 1, 1) 0%, rgba(223, 87, 9, 1) 50%, rgba(255, 4, 4, 1) 100%);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+
+.winter {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(1, 225, 196, 1) 48%, rgba(0, 168, 255, 1) 100%);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+
+.spring {
+    background: rgb(110, 249, 1);
+    background: linear-gradient(90deg, rgba(110, 249, 1, 1) 0%, rgba(9, 223, 26, 1) 50%, rgba(1, 123, 43, 1) 100%);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+}
+
+.summer {
+    background: rgb(255, 245, 103);
+    background: linear-gradient(90deg, rgba(255, 245, 103, 1) 0%, rgba(223, 206, 9, 1) 50%, rgba(255, 166, 0, 1) 100%);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 48px;
+}

@@ -1,0 +1,29 @@
+#space {
+    width: 400px;
+}
+
+.container-fluid {
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 10%!important;
+}
+
+img {
+    width: 400px;
+}
+
+#first-text {}
+
+#second-text {
+    margin-top: 100px;
+}
+
+.map {
+    box-sizing: content-box;
+}

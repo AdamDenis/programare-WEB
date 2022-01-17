@@ -1,0 +1,30 @@
+.container {
+    margin-top: 100px;
+}
+
+header {
+    margin-left: 100px;
+}
+
+#space {
+    width: 400px;
+}
+
+header {
+    margin-left: 100px;
+}
+
+img {
+    width: 400px;
+    border-radius: 20%;
+    margin-left: 10px;
+}
+
+h6 {
+    text-align: center;
+}
+
+h2 {
+    position: relative;
+    left: 15%;
+}
